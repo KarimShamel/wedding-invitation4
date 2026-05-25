@@ -1,0 +1,66 @@
+* {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  color: #f0d98a;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: rgba(255,255,255,0.7);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+
+  .machine-area {
+    flex-direction: column;
+  }
+
+  .slot-machine {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .slot-screen {
+    gap: 10px;
+    padding: 30px 10px;
+  }
+
+  .reel-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .reel div {
+    height: 100px;
+    font-size: 1.5rem;
+  }
+
+  .wide {
+    grid-column: span 1;
+  }
+
+  .tall {
+    grid-row: span 1;
+  }
+
+  .details-card {
+    padding: 35px 25px;
+  }
+
+  .detail-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
