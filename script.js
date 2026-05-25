@@ -1,12 +1,5 @@
 const lever = document.getElementById('leverContainer');
 
-  setTimeout(() => {
-    reel3.style.transform = 'translateY(-120px)';
-  }, 800);
-}
-
-calendarBtn.addEventListener('click', () => {
-
   const title = 'Ehab and Habiba Wedding';
   const location = 'Royal Palace Ballroom, Cairo';
   const details = 'Join us for our wedding celebration!';
