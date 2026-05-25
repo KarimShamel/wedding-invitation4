@@ -1,4 +1,24 @@
 * {
+
+.photo-card:hover img {
+  transform: scale(1.08);
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+footer {
+  padding: 70px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+footer h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 3rem;
   color: #f0d98a;
